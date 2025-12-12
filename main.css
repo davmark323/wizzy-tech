@@ -1,0 +1,549 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.tech{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+    height: 20vw;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.welco{
+    margin-top: 20px;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 0 10px;
+    background: white;
+    color: rgba(137, 43, 221);
+    height: 40px;
+}
+
+.btu{
+    font-size: 20px;
+    padding: 0 10px;
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    height: 40px;
+    border:  2px solid aliceblue;
+}
+
+main{
+    max-width: 92vw;
+    margin:  0 auto;
+}
+
+.our{
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+}
+
+.serve{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.ser{
+    background:rgba(138, 43, 221, 0.14); 
+    padding: 20px;
+
+}
+
+.ser h3{
+    padding: 20px;
+    font-size: 20px;
+}
+
+#icon{
+    width: 2em;
+    background: blue;
+}
+
+.serp{
+    padding: 20px;
+}
+
+.boot{
+    text-align: center;
+    padding: 50px;
+}
+
+.view{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    padding: 0 15px;
+    height: 35px;
+}
+
+h4{
+    font-size: 40px;
+}
+
+.net{
+    display: flex;
+    gap: 20vw;
+}
+
+.net p{
+    font-size: 20px;
+}
+
+.vie{
+    background: rgba(137, 43, 221);
+    color: aliceblue;
+    font-size: large;
+    height: 35px;
+    margin-top: 20px;
+    padding: 0 20px;
+    border: none;
+}
+
+.place{
+    background:rgba(138, 43, 221, 0.177);
+    padding: 90px;
+    color: rgba(137, 43, 221);
+    font-size: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.start{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    height: 20vw;
+    font-size: 30px;
+}
+
+.start h4 p{
+   margin-top: 50px;
+   font-size: 40px;
+}
+
+.start p{
+    font-size: 20px;
+}
+
+/* about */
+
+.about{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+    height: 10vw;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.mar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#affai{
+    color: blue;
+    font-size: x-large;
+}
+
+.photo{
+    background:rgba(138, 43, 221, 0.488);
+    padding: 60px;
+    color:rgba(137, 43, 221);
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+ 
+
+.star{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    height: 18vw;
+    font-size: 30px;
+}
+
+.star h4{
+    font-size: 40px;
+}
+
+.star p{
+    font-size: 20px;
+}
+
+/* service */
+
+.tecb{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.tecb h1{
+    font-size: 60px;
+}
+
+.tacb p{
+    font-size: 18px;
+}
+
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 330px 330px 330px;
+    gap: 1em;
+    margin-top: 40px;
+    margin-bottom: -45%;
+    font-size: 20px;
+}
+
+.box {
+    border: 2px solid mistyrose;
+    border-radius: .3em;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 230px 330px 330px;
+    gap: 1em;
+    margin-top: -40px;
+    margin-bottom: -45%;
+    font-size: 20px;
+}
+
+.boe{
+    border: 2px solid mistyrose;
+    border-radius: .3em;
+}
+
+.stare{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.stare h4{
+   font-size: 40px;
+}
+
+.stare p{
+   font-size: 20px;
+}
+
+/* event */
+
+.tecu{
+    color: aliceblue;
+    text-align: center;
+    height: 35vh;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 80px;
+    background: rgba(137, 43, 221);
+}
+
+.tecu h1{
+    font-size: 50px;
+}
+
+.tecu p{
+    margin-top: -20px;
+}
+
+.curre{
+   margin-top: 70px;
+   margin-bottom: 50px;
+}
+
+.curre h2{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.event{
+    background: rgba(216, 184, 244, 0.438);
+    padding: 50px ;
+    border: 2px solid rgb(215, 171, 254);
+    border-radius: 10px;
+}
+
+.event button{
+    background: rgba(137, 43, 221) ;
+    color: aliceblue;
+    border: none;
+    padding: 2px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.event h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.them{
+    color: rgba(137, 43, 221);
+    font-size:30px;
+    font-family: monospace;
+}
+
+.taget{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(244, 244, 242);
+    padding: 10px;
+    border: 1px solid  rgba(138, 43, 221, 0.437);
+    border-radius: 5px;
+}
+
+.late{
+    color: rgba(137, 43, 221);
+    font-size: 30px;
+}
+
+.num{
+    color:  rgba(137, 43, 221);
+}
+
+.num:hover{
+    text-decoration: underline;
+
+}
+
+.shop{
+    background: rgb(244, 244, 242);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid  rgba(138, 43, 221, 0.437);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.sta{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 80px;
+    height: 45vh;
+   justify-content: center;
+
+}
+
+@media (max-width: 700px){
+    header{
+        display: block;
+        position: sticky;
+        top: 0;
+    }
+
+    .tech{
+      background:rgba(137, 43, 221);
+      color: aliceblue;
+      text-align: center;
+      margin-top: 70px;
+      height: 70vh;
+      justify-content: center;
+      font-size: 40px; 
+    }
+
+    .tech h1{
+        font-size: 30px;
+    }
+
+    .tech p{
+        font-size: 15px;
+    }
+     
+    .bot{
+        display: grid;
+        gap: 10px;
+    }
+
+
+    main{
+    max-width: 92vw;
+    margin: auto;
+  }
+
+  .our{
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+  }
+
+  .serve{
+    display:block;
+    color: black;
+   }
+
+   .ser{
+    background:rgba(137, 43, 221); 
+    padding: 20px;
+    margin-top: 30px;
+
+  }
+
+  .ser h3{
+     margin-top: 0;
+  }
+
+  .net{
+    display: block;
+    gap: 20vw;
+  }
+
+  .vie{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    font-size: large;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    border: none;
+  }
+
+  .work{
+    font-size: 10px;
+  }
+
+  .place{
+    background:rgba(138, 43, 221, 0.253);
+    padding: 70px;
+    color:rgba(137, 43, 221);
+    font-size: 40px;
+    width: 80vw;
+    margin-bottom: 30px;
+    border-radius: 10px;
+ }
+
+ .start{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 10px;
+    height: 70vh;
+    font-size: 30px;
+  }
+
+  .boot{
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  /* about */
+
+  .about{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    height: 40vh; 
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  .about h1{
+    font-size: 1em;
+  }
+
+  .about p{
+    font-size: 20px;
+  }
+
+  .mar{
+    display: block;
+  }
+
+   .photo{
+      font-size: 20px;
+   }
+
+  .star{
+      background:rgba(137, 43, 221);
+      color: aliceblue;
+      text-align: center;
+      margin-top: 80px;
+      height: 89vh;
+      justify-content: center; 
+  }
+
+  .our{
+    display: grid;
+    gap: 20px;
+  }
+  /* service */
+
+  .tecb{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.tecb h1{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tacb p{
+    font-size: 5px;
+}
+
+  .grid { 
+     grid-template-columns: 1fr;
+     grid-template-rows: 200px 200px 200px;
+     margin-bottom: 50px;
+ }
+  
+ .container{
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+    grid-template-rows: 200px 200px 200px;
+    margin-bottom: 10vh;
+ }
+
+.taget{
+    display: block;
+
+  }
+
+  .stare{
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.stare h4{
+   font-size: 40px;
+}
+
+.stare p{
+   font-size: 15px;
+}
+ 
+}
