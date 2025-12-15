@@ -427,6 +427,67 @@ input[type="submit"]:hover{
     max-width: 92vw;
     margin:  0 auto;
 }
+.footer{
+    background: #111;
+    color: #f2d8d8cf;
+    padding: 20px;
+}
+
+.footer a{
+    list-style: none;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section{
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h3{
+    color: #d43adf;
+    margin-bottom: 10px;
+}
+
+.footer-section p{
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.footer-section  a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer-section li {
+     list-style: none;
+}
+
+.quick-link ul,
+.more{
+    list-style: none;
+    padding: 0;
+}
+
+
+.footer-section  a:hover{
+   text-decoration: underline;
+   color: #d43adf;
+}
+
+.buttom{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #333;
+    font-size: 0.8em;
+}
+
 @media (max-width: 700px){
     header{
         display: block;
@@ -627,5 +688,18 @@ input[type="submit"]:hover{
     display: block;
     margin-top: 40px;
 }
+
+/* footer */
+
+.footer-container{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section{
+    margin: 20px 0;
+    /* text-align: center; */
+  }
  
 }
