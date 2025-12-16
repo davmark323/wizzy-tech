@@ -232,6 +232,14 @@ h4{
     border-radius: .3em;
 }
 
+.box i{
+    font-size: 2em;
+    color:rgba(137, 43, 221);
+    margin: 10px;
+    padding:0;
+    justify-content: center;
+}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -247,6 +255,13 @@ h4{
     border-radius: .3em;
 }
 
+.boe i{
+    font-size: 2em;
+    color:rgba(137, 43, 221);
+    margin: 10px;
+    padding:0;
+    justify-content: center;
+}
 
 .stare{
     background:rgba(137, 43, 221);
@@ -668,12 +683,28 @@ a{
      grid-template-rows: 200px 200px 200px;
      margin-bottom: 50px;
  }
+
+ .box i{
+    font-size: 1em;
+    color:rgba(137, 43, 221);
+    margin: 10px;
+    padding:0;
+    justify-content: center;
+ }
   
  .container{
     grid-template-columns: 1fr;
     margin-top: 30px;
     grid-template-rows: 200px 200px 200px;
     margin-bottom: 10vh;
+ }
+
+ .boe i{
+    font-size: 1em;
+    color:rgba(137, 43, 221);
+    margin: 10px;
+    padding:0;
+    justify-content: center;
  }
 
 .taget{
