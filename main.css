@@ -232,15 +232,6 @@ h4{
     border-radius: .3em;
 }
 
-.box i{
-    background:rgba(137, 43, 221);
-    font-size: 2em;
-    color:rgb(238, 236, 240);
-    margin: 10px;
-    padding:0;
-    justify-content: center;
-}
-
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -256,14 +247,6 @@ h4{
     border-radius: .3em;
 }
 
-.boe i{
-     background:rgba(137, 43, 221);
-    font-size: 2em;
-    color:rgb(226, 218, 234);
-    margin: 10px;
-    padding:0;
-    justify-content: center;
-}
 
 .stare{
     background:rgba(137, 43, 221);
