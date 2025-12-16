@@ -10,11 +10,10 @@
 .tech{
     background:rgba(137, 43, 221);
     color: aliceblue;
-    text-align: center;
-    margin-top: 70px;
-    height: 20vw;
-    justify-content: center;
+    padding: 0;
+    text-align: center; 
     font-size: 40px;
+    margin-top: 50px;
 }
 
 .welco{
@@ -52,7 +51,17 @@ main{
 .serve{
     display: flex;
     justify-content: space-between;
+    gap: 30px;
    
+}
+
+.ser i{
+    background:rgba(137, 43, 221);
+    font-size: 2em;
+    color:rgb(238, 236, 240);
+    margin: 10px;
+    padding:0;
+    justify-content: center;
 }
 
 .ser{
@@ -126,7 +135,7 @@ h4{
     color: aliceblue;
     text-align: center;
     margin-top: 30px;
-    height: 20vw;
+    padding: 0;
     font-size: 30px;
 }
 
@@ -146,7 +155,7 @@ h4{
     color: aliceblue;
     text-align: center;
     margin-top: 70px;
-    height: 10vw;
+    padding: 0;
     justify-content: center;
     font-size: 40px;
 }
@@ -154,6 +163,7 @@ h4{
 .mar{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 #affai{
@@ -176,7 +186,7 @@ h4{
     color: aliceblue;
     text-align: center;
     margin-top: 30px;
-    height: 18vw;
+    padding: 0;
     font-size: 30px;
 }
 
@@ -209,10 +219,10 @@ h4{
 .grid { 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 330px 330px 330px;
+    grid-template-rows: 250px 330px 330px;
     gap: 1em;
-    margin-top: 40px;
-    margin-bottom: -45%;
+    margin-top:0%;
+    margin-bottom: -47%;
     font-size: 20px;
 }
 
@@ -257,7 +267,7 @@ h4{
 .tecu{
     color: aliceblue;
     text-align: center;
-    height: 35vh;
+    padding: 0;
     justify-content: center;
     font-size: 25px;
     margin-top: 80px;
@@ -347,7 +357,7 @@ h4{
     color: aliceblue;
     text-align: center;
     margin-top: 80px;
-    height: 45vh;
+    padding: 0;
    justify-content: center;
 
 }
@@ -393,7 +403,7 @@ textarea{
 }
 
 input[type="submit"]{
-    background: #d43adf;
+    background:rgba(137, 43, 221);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -403,29 +413,31 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-   background: #e75bf1;
+   background:rgba(137, 43, 221);
 }
 
 .content{
+   text-align: center;
+   padding: 20px;
+   background: #ccc;
+   margin-top: 30px;
+}
+
+.content h4{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.map{
+    background:rgba(137, 43, 221);
+    padding: 90px;
+    border-radius: 10px;
+    display: flex;
+    color: #f7f4f4;
+    justify-content: center;
     text-align: center;
-    background: #777 ;
-    height: 50vh;
-    margin-top: 20px;
-}
-
-.content h1{
-    font-size: 2.5em;
-    color: #555;
-    margin-top: 20px;
-}
-
-.content .map{
-    /* color: #777; */
-    font-size: 20px;
-    background: #e599eba7;
-    height: 40vh;
-    max-width: 92vw;
-    margin:  0 auto;
+    max-height: 200px;
 }
 .footer{
     background: #111;
@@ -488,7 +500,10 @@ input[type="submit"]:hover{
     font-size: 0.8em;
 }
 
-@media (max-width: 700px){
+a{
+    text-decoration: none;
+}
+@media (max-width: 600px){
     header{
         display: block;
         position: sticky;
@@ -499,9 +514,7 @@ input[type="submit"]:hover{
       background:rgba(137, 43, 221);
       color: aliceblue;
       text-align: center;
-      margin-top: 70px;
-      height: 43vh;
-      justify-content: center;
+      padding: 0;
       font-size: 40px; 
     }
 
@@ -581,7 +594,7 @@ input[type="submit"]:hover{
     color: aliceblue;
     margin-top: 30px;
     font-size: 10px;
-    height: 40vh;
+    padding: 0;
     font-size: 30px;
   }
 
@@ -595,7 +608,7 @@ input[type="submit"]:hover{
   .about{
     background:rgba(137, 43, 221);
     color: aliceblue;
-    height:25vh; 
+    padding: 0;
     justify-content: center;
     font-size: 40px;
   }
