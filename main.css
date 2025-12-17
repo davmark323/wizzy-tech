@@ -22,10 +22,21 @@
 
 .btn{
     font-size: 20px;
+    border-radius: 10px;
     padding: 0 10px;
     background: white;
     color: rgba(137, 43, 221);
     height: 40px;
+}
+
+.btn:hover{
+     font-size: 20px;
+    padding: 0 10px;
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    height: 40px;
+    border-radius: 10px;
+    border:  2px solid aliceblue;
 }
 
 .btu{
@@ -34,7 +45,17 @@
     background:rgba(137, 43, 221);
     color: aliceblue;
     height: 40px;
+    border-radius: 10px;
     border:  2px solid aliceblue;
+}
+
+.btu:hover{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0 10px;
+    background: white;
+    color: rgba(137, 43, 221);
+    height: 40px; 
 }
 
 main{
@@ -94,6 +115,7 @@ main{
     color: aliceblue;
     font-size: large;
     border: none;
+    border-radius:20px;
     padding: 0 15px;
     height: 35px;
 }
@@ -119,6 +141,7 @@ h4{
     margin-top: 20px;
     padding: 0 20px;
     border: none;
+    border-radius: 20px;
 }
 
 .place{
@@ -196,6 +219,15 @@ h4{
 
 .star p{
     font-size: 20px;
+}
+
+.btt{
+    font-size: 20px;
+    padding: 0 10px;
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    border-radius: 10px;
+    border:  2px solid aliceblue;
 }
 
 /* service */
@@ -277,6 +309,26 @@ h4{
 
 .stare p{
    font-size: 20px;
+}
+
+.btr{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0 10px;
+    background: white;
+    color: rgba(137, 43, 221);
+    height: 40px;
+    border: none;
+}
+
+.btr:hover{
+    font-size: 20px;
+    padding: 0 10px;
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    height: 40px;
+    border-radius: 10px;
+    border:  2px solid aliceblue;
 }
 
 /* event */
@@ -377,6 +429,32 @@ h4{
     padding: 0;
    justify-content: center;
 
+}
+
+.bro{
+    font-size: 20px;
+    padding: 0 60px;
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    border-radius: 10px;
+    border:  2px solid aliceblue;
+}
+
+.bro:hover{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0 60px;
+    background: white;
+    color: rgba(137, 43, 221);
+}
+
+.ton{
+    font-size: 20px;
+    padding: 0 20px;
+    background:rgba(137, 43, 221);
+    color: aliceblue;
+    border-radius: 10px;
+    border:  2px solid aliceblue;
 }
 
 /* contact */
@@ -551,6 +629,14 @@ a{
         font-size: 15px;
     }
      
+    .btn{
+       padding: 0 70px;
+   }
+   
+    .btu{
+      padding: 0 70px;
+   }
+
     .bot{
         display: grid;
         gap: 10px;
@@ -657,16 +743,15 @@ a{
   .star{
       background:rgba(137, 43, 221);
       color: aliceblue;
-      text-align: center;
       margin-top: 80px;
-      height: 67vh;
-      justify-content: center; 
+      padding: 0;
+      justify-content: center;
+  }
+  
+  .btt{
+    padding:0 60px;
   }
 
-  .our{
-    display: grid;
-    gap: 20px;
-  }
   /* service */
 
   .tecb{
@@ -735,6 +820,10 @@ a{
 .stare p{
    font-size: 15px;
 }
+
+.btr{
+   padding: 0 60px;
+ }
 
 /* contact */
 
