@@ -702,6 +702,11 @@ a{
     font-size: 10px;
   }
 
+  .work img{
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
   .place{
     background:rgba(138, 43, 221, 0.253);
     padding: 70px;
